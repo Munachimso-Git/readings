@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Readings Investment Limited</title>
+    <meta name="description" content="Readings Investments Limited — NGX Trading License Holder. Equities trading, wealth management, and financial advisory services in Nigeria." />
+
+    <link rel="icon" type="image/png" href="/favicon.png" />
+
+    <!--
+      IMPORTMAP — only modules actually used in the codebase.
+
+      REMOVED vs v4-final:
+        "@google/genai"  — Gemini SDK, leftover from removed AI chat feature. Not imported anywhere.
+        "puppeteer"      — Headless browser tool. Cannot run in a browser. Not imported anywhere.
+        "fs"             — Node.js built-in. Does not exist in a browser context.
+        "path"           — Node.js built-in. Does not exist in a browser context.
+
+      These were dead weight and a supply-chain risk: if esm.sh is ever compromised,
+      unused importmap entries are still a potential injection vector.
+    -->
+
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <script type="importmap">
+    {
+      "imports": {
+        "react":        "https://esm.sh/react@^19.2.4",
+        "react/":       "https://esm.sh/react@^19.2.4/",
+        "react-dom/":   "https://esm.sh/react-dom@^19.2.4/",
+        "lucide-react": "https://esm.sh/lucide-react@^0.563.0"
+      }
+    }
+    </script>
+    <script type="module" crossorigin src="/assets/index-PIdlcif3.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-C3epSC9J.css">
+  </head>
+  <body class="bg-bg-base text-ink antialiased font-sans overflow-x-hidden selection:bg-gold selection:text-white">
+
+    <!--
+      NOTE: The hidden Netlify form that was here previously has been removed.
+      The contact form uses Web3Forms via JavaScript (ContactForm.tsx / pages/Contact.tsx).
+      The Netlify form was a duplicate that served no purpose and could confuse
+      future developers into thinking there were two submission paths.
+    -->
+
+    <div id="root"></div>
+  </body>
+</html>
